@@ -1,0 +1,85 @@
+body {
+  background-color: #e8e8e8;
+}
+
+.input-container {
+  background-color: #E74C3C;
+  padding: 3rem;
+}
+
+.options-container {
+  background-color: #ECF0F1;
+}
+
+h1 {
+  color:#ECF0F1;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h2 {
+  color:#ECF0F1;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+h2 a {
+  color:#2C3E50;
+}
+
+[type=text].enter-todo {
+  -webkit-box-shadow: 6px 7px 29px -12px rgba(92,90,92,1);
+  -moz-box-shadow: 6px 7px 29px -12px rgba(92,90,92,1);
+  box-shadow: 6px 7px 29px -12px rgba(92,90,92,1);
+
+}
+
+
+
+.todo-container {
+  background-color:#FFFFFF;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 50px;
+  padding: 12px 15px 15px 15px;
+  margin-bottom: .9375rem;
+  margin-top: .9375rem;
+  box-sizing: content-box;
+  border:solid 2px #FFFFFF;
+  -webkit-box-shadow: 6px 7px 29px -12px rgba(92,90,92,1);
+  -moz-box-shadow: 6px 7px 29px -12px rgba(92,90,92,1);
+  box-shadow: 6px 7px 29px -12px rgba(92,90,92,1);
+}
+
+.todo-container:hover {
+  border:solid 2px #3498DB;
+}
+
+.todo-container span {
+  text-transform: capitalize;
+}
+
+select,
+label {
+  color:grey;
+}
+
+
+
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .todo-container {
+    height: 140px;
+    overflow: hidden;
+  }
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .todo-container {
+    height: 160px;
+  }
+
+}
